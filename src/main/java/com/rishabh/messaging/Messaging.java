@@ -5,12 +5,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class Messaging {
-	@Value("${twilio.account.sid}")
-	private String sid;
-	@Value("${twilio.auth.token}")
-	private String token;
-	@Value("${twilio.from.phone.number}")
-	private String fromPhoneNumber;
+	private String sid="ACf5a54ce8bf762e109a704e864c1b6f38";
+	private String token="15d6040b8ea4966fe317b9cc8d5ab45f";
+	private String fromPhoneNumber="+19854418745";
 	public String getSid() {
 		return sid;
 	}
